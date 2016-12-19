@@ -1,0 +1,20 @@
+body{
+	background: #ffd82b;
+	text-align: center;
+}
+
+.img1{
+	margin-top: 12.5rem;
+	width: 15.625rem;
+	height: 7.9375rem;
+}
+
+.img2{
+	margin-top: 3.125rem;
+	width: 3.125rem;
+	height: 3.125rem;
+}
+
+p{
+	font-size: 0.390625rem;
+}

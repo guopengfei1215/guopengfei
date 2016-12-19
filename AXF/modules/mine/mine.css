@@ -1,0 +1,192 @@
+/*header部分*/
+.mine-header{
+	width: 100%;
+	height: 4.21875rem;
+	background: #ffd600;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.user-image{
+	background: url(../../images/login_01.png) no-repeat;
+	background-size: 1.890625rem 1.890625rem;
+	width: 1.890625rem;
+	height: 1.890625rem;
+	margin: 0.859375rem 0.46875rem 0.546875rem 0.46875rem;
+	display: inline-block;
+	float: left;
+}
+
+.user-info{
+	float: left;
+}
+
+.user-phone{
+	font-size: 0.46875rem;
+	color: #fff;
+	font-weight: bold;
+	margin: 0.875rem 0 0.234375rem 0;
+}
+
+.user-level{
+	float: left;
+	font-size: 0.3125rem;
+	color: #e75520;
+	font-weight: bold;
+	background: url(../../images/feng.png) no-repeat;
+	width: 3.125rem;
+	height: 1.5625rem;
+	background-size: 2.96875rem 0.9375rem;
+	background-position: 0 0;
+	padding-left: 0.890625rem;
+	padding-top: 0.25rem;
+}
+
+.arrow{
+	float: right;
+	margin: 1.4rem 0.59375rem 0 0;
+}
+
+.arrow>img{
+	width: 0.4375rem;
+	height: 0.59375rem;
+}
+
+.user-list{
+	height: 1.09375rem;
+	background: #f3c800;
+	clear: both;
+}
+
+.user-list{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 0.46875rem;
+	color: #fff;
+}
+
+.user-list_1{
+	width: 50%;
+	background: url(../../images/bao1.png) no-repeat;
+	background-size: 0.671875rem 0.65625rem;
+	padding-left: 0.96875rem;
+	margin-left: 1.296875rem;
+}
+
+.user-list_2{
+	width: 50%;
+	background: url(../../images/bao2.png) no-repeat;
+	background-size: 0.671875rem 0.65625rem;
+	padding-left: 0.96875rem;
+}
+
+/*orderForm部分*/
+.orderForm{
+	height: 3.796875rem;
+	background: #fff;
+	margin-top: 4.921875rem;
+}
+
+.orderForm>h2{
+	height: 1.4375rem;
+	font-size: 0.34375rem;
+	color: #333333;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.3125rem;
+	border-bottom: 0.015625rem solid #e0e0e0;
+}
+
+.orderForm>h2>span{
+	margin-right: 0.359375rem;	
+	color: #999999;
+}
+
+.orderForm>ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.orderForm>ul>li{
+	text-align: center;
+}
+
+.orderForm>ul>li>span{
+	display: inline-block;
+	width: 0.65625rem;
+	height: 0.578125rem;
+	background-size: 0.609375rem 0.5625rem;
+	margin-top: 0.625rem;
+}
+
+.orderForm>ul>li>p{
+	margin-top: 0.203125rem;
+	font-size: 0.34375rem;
+}
+
+.sp1{
+	background: url(../../images/b1.png) no-repeat;
+}
+
+.sp2{
+	background: url(../../images/b2.png) no-repeat;
+}
+
+.sp3{
+	background: url(../../images/b3.png) no-repeat;
+}
+
+.sp4{
+	background: url(../../images/b4.png) no-repeat;
+}
+
+/*seviceInfo部分*/
+.seviceInfo{
+	height: 6.171875rem;
+	background: #fff;
+	margin-top: 0.3125rem;
+}
+
+.oUl1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50%;
+	border-bottom: 0.03125rem solid #efefef;
+	text-align: center;
+}
+
+.oDiv>img{
+	width: 0.9375rem;
+	height: 0.765625rem;
+}
+
+.oUl2{
+	display: flex;
+	align-items: center;
+	height: 50%;
+	text-align: center;
+}
+
+.oUl2>li{
+	width: 25%;
+}
+
+.seviceInfo p{
+	margin-top: 0.203125rem;
+	font-size: 0.34375rem;
+}
+
+/*exit部分*/
+.exit{
+	height: 1.09375rem;
+	background: #fff;
+	margin-top: 0.78125rem;
+	margin-bottom: 1.859375rem;
+	text-align: center;
+	line-height: 1.09375rem;
+	font-size: 0.375rem;
+}

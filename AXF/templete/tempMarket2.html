@@ -1,0 +1,27 @@
+<script type="text/html" id="market2">
+	<ul class="product_list">
+		<li>全部分类<span></span></li>
+	    <li>销量最高<span></span></li>
+	</ul>
+	<%for(var n in data.products){%>
+		<%for(var m in data.products[n]){%>
+		<div class="product_info">
+			<dl>
+				<dt>
+					<a href="#"><img src=<%=data.products[n][m].img%> class="food-img1"></a>
+				</dt>
+				<dd>
+					<h3><%=data.products[n][m].name%></h3>
+					<img src="images/1_04_32.jpg" class="food-img2">
+					<p class="food-p1"><%=data.products[n][m].specifics%></p>
+					<p class="food-p2">
+						￥<%=data.products[n][m].partner_price%>
+						<%=data.products[n][m].market_price%>
+					</p>
+				</dd>
+				<a href="#"><img src="images/1_39.jpg" alt="" class="food-img3"></a>
+			</dl>
+		</div>
+		<%}%>
+	<%}%>
+</script>

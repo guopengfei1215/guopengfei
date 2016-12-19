@@ -1,0 +1,51 @@
+.shopCar-header{
+	width: 100%;
+	height: 1.25rem;
+	background: #f9fafd;
+	text-align: center;
+	line-height: 1.046875rem;
+	font-size: 0.46875rem;
+	font-weight: bold;
+	color: #333333;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.shopAll{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.shop_img{
+	width: 1.984375rem;
+	height: 1.984375rem;
+	background: url(../../images/ds.png);
+	background-size: 1.984375rem 1.984375rem;
+	margin-top: 3.125rem;
+}
+
+.shop_p{
+	text-align: center;
+	font-size: 0.46875rem;
+	color: #999999;
+	margin-top: 0.3125rem;
+}
+
+.shop_oA{
+	display: flex;
+	justify-content: center;
+}
+
+.shop_a{
+	display: inline-block;
+	width: 2.34375rem;
+	height: 0.5625rem;
+	border: 0.015625rem solid #e5e5e5;
+	text-align: center;
+	line-height: 0.5625rem;
+	color: #999999;
+	font-size: 0.34375rem;
+	margin-top: 0.3125rem;
+}

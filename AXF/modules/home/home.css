@@ -1,0 +1,286 @@
+/*header部分*/
+.home-header{
+	width: 100%;
+	height: 1.4375rem;
+	background: #ffd600;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.header-img1{
+	width: 0.5625rem;
+	height: 0.5625rem;
+}
+
+header a{
+	color: #333333;
+}
+
+.header-a1{
+	font-size: 0.234375rem;
+	text-align: center;
+	margin-left: 0.15625rem;
+}
+
+header h2{
+	font-size: 0.40625rem;
+}
+
+.header-img2{
+	width: 0.25rem;
+	height: 0.25rem;
+}
+
+.header-img3{
+	width: 0.609375rem;
+	height: 0.609375rem;
+}
+
+.header-a2{
+	font-size: 0.234375rem;
+	text-align: center;
+	margin-right: 0.15625rem;
+}
+
+/*slider 部分*/
+.slider{
+	width: 100%;
+	height: 3.734375rem;
+	margin-top: 1.4375rem;
+}
+
+.swiper-wrapper img{
+	width: 10.0rem;
+	height: 3.734375rem;
+}
+
+/* main部分 */
+.main{
+	width: 100%;
+	margin-top: 0.15625rem;
+	clear: both;
+	margin-bottom: 1.546875rem;
+}
+
+/* cate-wrap部分 */
+.cate-wrap{
+	height: 2.375rem;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cate-wrap>a{
+	text-align: center;
+	margin-top: 0.234375rem;
+}
+
+.cate-wrap>a>p{
+	color: #353d44;
+	font-size: 0.359375rem;
+}
+
+.cate-wrap>a>img{
+	width: 2.03125rem;
+	height: 1.40625rem;
+}
+
+/*foodList部分*/
+.foodList{
+	height: 4.34375rem;
+	background: #fff;
+	margin-top: 0.265625rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.foodList img{
+	height: 4.34375rem;
+	border-right: 0.015625rem solid #e0e0e0;
+}
+
+.foodList>img:last-of-type{
+	border-right: none;
+}
+
+/*m-store部分*/
+.m-store{
+	height: 10.375rem;
+	background: #fff;
+	margin-top: 0.3125rem;
+}
+
+.m-store_img1{
+	width: 100%;
+}
+
+.m-store_img2{
+	width: 4.578125rem;
+}
+
+.m-store_oDiv1{
+	display: flex;
+	justify-content: space-around;
+}
+
+.m-store_oDiv2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.m-store_oDiv2>a{
+	text-align: center;
+}
+
+.m-store_oDiv2>a>img{
+	width: 2.1875rem;
+}
+
+.m-store_oDiv2>a>p{
+	font-size: 0.34375rem;
+	color: #333333;
+}
+
+.m-store_oDiv3,.m-store_oDiv4{
+	display: flex;
+	justify-content: space-around;
+	border-top: 0.015625rem solid #e0e0e0;
+}
+
+.m-store_oDiv3{
+	margin-top: 0.78125rem;
+}
+
+.m-store_oDiv3>a>img,.m-store_oDiv4>a>img{
+	width: 5.0rem;
+	border-right: 0.015625rem solid #e0e0e0;
+}
+
+/*fruit, milk, cookedFood, drinks, foods, fastFood部分*/
+.fruit,.milk,.cookedFood,.drinks,.foods,.fastFood{
+	height: 9.5rem;
+	background: #fff;
+	margin-top: 0.3125rem;
+}
+
+.fruit-img1,.milk-img1,.cookedFood-img1,.drinks-img1,.foods-img1,.fastFood-img1{
+	width: 0.25rem;
+	height: 0.5rem;
+}
+
+.fruit h2,.milk h2,.cookedFood h2,.drinks h2,.foods h2,.fastFood h2{
+	font-size: 0.390625rem;
+	color: #f38631;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 1.25rem;
+}
+
+.fruit-img2,.milk-img2,.cookedFood-img2,.drinks-img2,.foods-img2,.fastFood-img2{
+	width: 0.15625rem;
+	height: 0.3125rem;
+}
+
+.fruit>h2>a,.milk>h2>a,.cookedFood>h2>a,.drinks>h2>a,.foods>h2>a,.fastFood>h2>a{
+	color: #999999;
+	margin-right: 0.34375rem;
+}
+
+.fruit>h2>span,.milk>h2>span,.cookedFood>h2>span,.drinks>h2>span,.foods>h2>span,.fastFood>h2>span{
+	display: flex;
+	align-items: center;
+	margin-left: 0.296875rem;
+}
+
+.fruit-img3,.milk-img3,.cookedFood-img3,.drinks-img3,.foods-img3,.fastFood-img3{
+	width: 9.375rem;
+	height: 2.359375rem;
+	margin-left: 0.296875rem;
+}
+
+.fruit-img4,.milk-img4,.cookedFood-img4,.drinks-img4,.foods-img4,.fastFood-img4{
+	width: 2.375rem;
+	height: 2.3125rem;
+	margin: 0.78125rem 0 0 0.421875rem;
+}
+
+
+.fruit h3,.milk h3,.cookedFood h3,.drinks h3,.foods h3,.fastFood h3{
+	font-size: 0.375rem;
+	margin-left: 0.15625rem;
+}
+
+.fruit-img5,.milk-img5,.cookedFood-img5,.drinks-img5,.foods-img5,.fastFood-img5{
+	width: 0.875rem;
+	height: 0.4375rem;
+	margin-left: 0.15625rem;
+	margin-top: 0.1875rem;
+}
+
+.fruit-img6,.milk-img6{
+	width: 1.5rem;
+	height: 0.4375rem;
+}
+
+.fruit dl,.milk dl,.cookedFood dl,.drinks dl,.foods dl,.fastFood dl{
+	width: 3.296875rem;
+	height: 5.671875rem;
+	border-right: 0.015625rem solid #e0e0e0;
+}
+
+.fruit dl:last-of-type,.milk dl:last-of-type,.cookedFood dl:last-of-type,.drinks dl:last-of-type,.foods dl:last-of-type,.fastFood dl:last-of-type{
+	border-right: none;
+}
+
+.fruit-p1,.milk-p1,.cookedFood-p1,.drinks-p1,.foods-p1,.fastFood-p1{
+	font-size: 0.328125rem;
+	color: #999999;
+	margin-left: 0.15625rem;
+}
+
+.fruit-p2,.milk-p2,.cookedFood-p2,.drinks-p2,.foods-p2,.fastFood-p2{
+	font-size: 0.265625rem;
+	color: #ff4300;
+	margin-left: 0.15625rem;
+}
+
+.fruit-p2>a>img,.milk-p2>a>img,.cookedFood-p2>a>img,.drinks-p2>a>img,.foods-p2>a>img,.fastFood-p2>a>img{
+	width: 0.34375rem;
+	height: 0.34375rem;
+	border: 0.03125rem solid #e0e0e0;
+	border-radius: 50%;
+	padding: 0.234375rem;
+	margin-left: 0.78125rem;
+}
+
+.fruit-shop,.milk-shop,.cookedFood-shop,.drinks-shop,.foods-shop,.fastFood-shop{
+	display: flex;
+	justify-content: center;
+}
+
+.milk h2{
+	color: #20b1fa;
+}
+
+.cookedFood h2{
+	color: #7b4d03;
+}
+
+.drinks h2{
+	color: #ff3319;	
+}
+
+.foods h2{
+	color: #ea1f2f;
+}
+
+.fastFood h2{
+	color: #1eb2a3;
+}
+
